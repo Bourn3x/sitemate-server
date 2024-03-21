@@ -27,6 +27,7 @@ class IssueServices {
       description: body.description,
     };
     ISSUES.push(newIssue);
+    console.log("Created new issue: ", newIssue);
     return newIssue;
   }
 
